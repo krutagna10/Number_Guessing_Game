@@ -6,7 +6,7 @@ public class Game {
         int input = 0;
         int count = 0;
         while(input!=generated) {
-            System.out.println("Enter a number between 1 to 100");
+            System.out.println("Enter a number between 1 to 100 ");
             input = sc.nextInt();
             if (input == generated) {
                 System.out.println("You have guessed the correct number in " + (count+1) + " number of guesses");
